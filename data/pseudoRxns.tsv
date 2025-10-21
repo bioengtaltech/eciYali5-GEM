@@ -1,0 +1,621 @@
+1543	(1-3)-beta-D-glucan transport
+1096	(R)-mevalonate transport
+1097	(R,R)-butanediol transport
+3607	1-(sn-glycero-3-phospho)-1D-myo-inositol transport, cell envelope-cytoplasm
+2136	14-demethyllanosterol transport
+3747g	1-acylglycerophosphocholine transport, ER membrane-lipid particle
+3751g	1-acylglycerophosphoethanolamine transport, ER membrane-lipid particle
+1560	1D-myo-inositol 1,3,4,5,6-pentakisphosphate diffusion
+1562	1D-myo-inositol 1-phosphate transport
+3949g	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate transport, vacuolar membrane-cell envelope
+3654g	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate transport, vacuolar membrane-cytoplasm
+3861g	1-phosphatidyl-1D-myo-inositol 3-phosphate transport, vacuolar membrane-ER membrane
+3941g	1-phosphatidyl-1D-myo-inositol 3-phosphate transport, vacuolar membrane-Golgi membrane
+3616g	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate transport, cell envelope-cytoplasm
+3919g	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate transport, cell envelope-ER membrane
+3632g	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate transport, nucleus-cytoplasm
+3624g	1-phosphatidyl-1D-myo-inositol 4-phosphate transport, cell envelope-cytoplasm
+3911g	1-phosphatidyl-1D-myo-inositol 4-phosphate transport, cell envelope-ER membrane
+3562g	1-phosphatidyl-1D-myo-inositol transport, cytoplasm-ER membrane
+3869g	1-phosphatidyl-1D-myo-inositol transport, ER membrane-cell envelope
+3805g	1-phosphatidyl-1D-myo-inositol transport, ER membrane-Golgi membrane
+3929g	1-phosphatidyl-1D-myo-inositol transport, ER membrane-nucleus
+3837g	1-phosphatidyl-1D-myo-inositol transport, ER membrane-vacuolar membrane
+1567	2-dehydro-3-deoxy-D-arabino-heptonate7-phohsphate transport
+1568	2-dehydropantoate transport
+1573	2-isopropylmalate transport
+1574	2-isopropylmalate transport
+1099	2-oxoadipate and 2-oxoglutarate transport
+1585	2-oxobutanoate transporter
+1587	2-oxoglutarate transport
+1588	2-oxoglutarate transport
+1595	3-carboxy-4-methyl-2-oxopentanoate transport
+1100	3-hexaprenyl-4,5-dihydroxybenzoate transport
+1596	3-methyl-2-oxopentanoate transport
+1601	3-octaprenyl-4-hydroxybenzoate transport
+1605	4-aminobenzoate transport
+1606	4-aminobenzoate transport
+1607	4-aminobutanal transport
+1608	4-aminobutyrate transport
+1101	4-aminobutyrate transport
+1609	4-hydroxy-2-oxoglutarate transport
+1610	4-hydroxy-2-oxoglutarate transport
+1611	4-hydroxybenzoate transport
+1622	5-aminolevulinate transport
+1102	5-aminolevulinate transport
+1103	5-formyltetrahydrofolic acid transport
+1628	7,8-diaminononanoate transport
+1104	8-Amino-7-oxononanoate transport
+1632	acetaldehyde transport
+1633	acetaldehyde transport
+1635	acetate transport
+1106	acetate transport
+1638	acetylcarnitine transport
+1637	acetyl-CoA transport
+xPOOL_AC_EM	Acyl-CoAs pool
+xPOOL_AC_LP	Acyl-CoAs pool
+xPOOL_AC_MM	Acyl-CoAs pool
+1640	adenine transport
+1108	adenine transport
+1642	adenosine 3,5-bisphosphate transport
+1109	adenosine transport
+1724	ADP deamination
+1644	ADP transport
+1645	ADP transport
+3602	ADP transport, cytoplasm-cell envelope
+3667	ADP transport, cytoplasm-Golgi membrane
+3652	ADP transport, cytoplasm-vacuolar membrane
+1111	ADP/ATP transporter
+1110	ADP/ATP transporter
+1112	AKG transporter, mitochonrial
+1647	AKG transporter, peroxisome
+1113	allantoate uniport
+1114	allantoin uniport
+1652	alpha-ketoglutarate/malate transporter
+xPROTEIN	protein pseudoreaction
+1115	ammonia transport
+1656	AMP transport
+3544	AMP transport, cytoplasm-ER membrane
+3586	AMP transport, cytoplasm-lipid particle
+1116	AMP/ATP transporter
+1657	arginine transport
+1658	asparagine transport
+1117	aspartate transport
+1118	aspartate-glutamate transporter
+1659	aspartate-glutamate transporter
+1722	ATP deamination
+1660	ATP diffusion
+1661	ATP transport
+3601	ATP transport, cytoplasm-cell envelope
+3543	ATP transport, cytoplasm-ER membrane
+3666	ATP transport, cytoplasm-Golgi membrane
+3585	ATP transport, cytoplasm-lipid particle
+3651	ATP transport, cytoplasm-vacuolar membrane
+1664	bicarbonate formation
+1665	bicarbonate formation
+1667	bicarbonate formation
+1668	bicarbonate formation
+1669	bicarbonate transport
+biomass_C	biomass_C
+1119	biotin uptake
+2190	butyrate (n-C4:0) transport
+2229	butyrate (n-C4:0) transport, cytoplasm-peroxisome
+3665	carbon dioxide transport, cytoplasm-Golgi membrane
+3669	carbon dioxide transport, cytoplasm-mitochondrial membrane
+3653	carbon dioxide transport, cytoplasm-vacuolar membrane
+1120	carnithine-acetylcarnithine carrier
+1673	carnitine transport
+1674	carnitine-acetylcarnitine carrier
+1675	CDP transport
+3539	CDP transport, cytoplasm-ER membrane
+3542	CDP-choline transport, cytoplasm-ER membrane
+3541	CDP-ethanolamine transport, cytoplasm-ER membrane
+1676	ceramide transport
+1677	ceramide transport
+1678	ceramide transport
+1679	ceramide transport
+1680	ceramide transport
+1681	ceramide transport
+1121	ceramide-2 (sphinganine:n-C24:0OH) transport
+1122	ceramide-2 (sphinganine:n-C26:0OH) transport
+1123	ceramide-3 (Phytosphingosine:n-C24:0OH) transport
+1124	ceramide-3 (Phytosphingosine:n-C26:0OH) transport
+3902	cerotic acid transport, cell envelope-ER membrane
+3938	cerotic acid transport, ER membrane-ER
+3684	cerotic acid transport, ER membrane-lipid particle
+1125	choline transport
+1684	choline transport
+1126	citrate transport
+1127	citrate transport
+1128	citrate transport
+1686	citrate transport
+1688	citrate/isocitrate antiport
+1689	citrate/malate antiport
+3540	CMP transport, cytoplasm-ER membrane
+3959	CMP transport, mitochondrion-mitochondrial membrane
+1691	CO2 transport
+1694	CO2 transport
+1695	CO2 transport
+1696	CO2 transport
+1697	CO2 transport
+3527	CO2 transport, cytoplasm-ER membrane
+1129	coenzyme A transport
+1698	coenzyme A transport
+1699	coenzyme A transport
+1700	coenzyme A transport
+3528	coenzyme A transport, cytoplasm-ER membrane
+3680	coenzyme A transport, mitochondrial membrane-cytoplasm
+2125	coenzyme A: cytoplasm to LP
+1701	complex sphingolipid transport
+1130	CTP transport
+3538	CTP transport, cytoplasm-ER membrane
+3960	CTP transport, mitochondrion-mitochondrial membrane
+1131	CTP/CMP antiport
+1132	cytidine transport
+1133	cytosine transport
+1725	dADP deamination
+1720	dADP transport
+1707	D-arabinose transport
+1723	dATP deamination
+1721	dCDP transport
+1726	deamino-NAD+ diffusion
+yli0001	decane transport e--c
+2185	decanoate (n-C10:0) transport
+1770	decanoate (n-C10:0) transport, cytoplasm-peroxisome
+1728	deoxyadenosine transport
+1731	deoxycytidine transport
+1732	deoxyguanosine transport
+1733	deoxyinosine transport
+1735	deoxyuridine transport
+1708	D-erythrose 4-phosphate transport
+1134	D-fructose transport
+1135	D-galactose transport
+1737	dGDP transport
+1713	D-glucosamine 6-phosphate uniport
+1738	dhnpt transport
+3554g	diglyceride transport, cytoplasm-ER membrane
+3588g	diglyceride transport, cytoplasm-lipid particle
+3789g	diglyceride transport, ER membrane-Golgi membrane
+3672g	diglyceride transport, mitochondrial membrane-cytoplasm
+3640g	diglyceride transport, nucleus-cytoplasm
+1743	dihydrofolate transport
+1745	dihydropteroate transport
+1746	dihydroxyacetone phosphate transport
+3535	dihydroxyacetone phosphate transport, cytoplasm-ER membrane
+3582	dihydroxyacetone phosphate transport, cytoplasm-lipid particle
+1747	diphosphate transport
+3536	diphosphate transport, cytoplasm-ER membrane
+3587	diphosphate transport, cytoplasm-lipid particle
+3962	diphosphate transport, mitochondrion-mitochondrial membrane
+1137	D-lactate transport
+1136	D-lactate transport
+1138	D-lactate/pyruvate antiport
+1139	D-mannose transport
+3613	docosanoyl-CoA transport, cell envelope-cytoplasm
+3522	docosanoyl-CoA transport, cytoplasm-ER membrane
+3598	docosanoyl-CoA transport, lipid particle-cytoplasm
+yli0021	dodecane transport e--c
+1748	dolichol phosphate transport
+1717	D-sorbitol transport
+1750	dTTP uniport
+1751	dUDP diffusion
+1752	dUMP transport
+1719	D-xylose transport
+1146	episterol transport
+3549	episterol transport, cytoplasm-ER membrane
+3717	episterol transport, ER membrane-lipid particle
+3724	episteryl oleate transport, ER membrane-lipid particle
+3723	episteryl palmitoleate transport, ER membrane-lipid particle
+1754	ergosta-5,6,22,24,(28)-tetraen-3beta-ol transport
+2139	ergosta-5,7,22,24(28)-tetraen-3beta-ol transport
+1758	ergosterol transport
+1759	ergosterol transport
+1760	ergosterol transport
+1147	ergosterol transport
+3552	ergosterol transport, cytoplasm-ER membrane
+3939	ergosterol transport, ER-ER membrane
+3722	ergosteryl oleate transport, ER membrane-lipid particle
+3721	ergosteryl palmitoleate transport, ER membrane-lipid particle
+yli0041	erythritol transport extracellular
+1762	ethanol transport
+1763	ethanol transport, mitochondrial
+1149	ethanolamine transport
+1151	fadH2 transport
+1766	farnesyl diphosphate transport
+xPOOL_FA_EM	Fatty acids pool
+xPOOL_FA_EN	Fatty acids pool
+xPOOL_FA_LP	Fatty acids pool
+xPOOL_FA_MI	Fatty acids pool
+xPOOL_FA_MM	Fatty acids pool
+2219	fatty acyl-CoA transport via ABC system (C12:0)
+2220	fatty acyl-CoA transport via ABC system (C14:0)
+2221	fatty acyl-CoA transport via ABC system (C16:0)
+2222	fatty acyl-CoA transport via ABC system (C16:1)
+2223	fatty acyl-CoA transport via ABC system (C18:0)
+2224	fatty acyl-CoA transport via ABC system (C18:1)
+yli0014	fatty acyl-CoA transport via ABC system (C18:2)
+2225	fatty acyl-CoA transport via ABC system (C20:0)
+2226	fatty acyl-CoA transport via ABC system (C22:0)
+2227	fatty acyl-CoA transport via ABC system (C24:0)
+2228	fatty acyl-CoA transport via ABC system (C26:0)
+1161	fecosterol transport
+3550	fecosterol transport, cytoplasm-ER membrane
+3718	fecosterol transport, ER membrane-lipid particle
+3726	fecosteryl oleate transport, ER membrane-lipid particle
+3725	fecosteryl palmitoleate transport, ER membrane-lipid particle
+1164	folic acid transport
+1794	formate transport
+1795	formate transport
+1796	formate transport
+1801	GDP transport
+1802	GDP transport
+1803	GDP-alpha-D-mannose transport
+1165	GDP-mannose antiport
+1166	glucose transport
+1805	glucose transport, vacuolar
+1167	glutathione transport
+1168	glutathione transport
+1169	glycero-3-phospho-1-inositol transport
+1170	glycero-3-phosphocholine transport
+3534	glycerol 3-phosphate transport, cytoplasm-ER membrane
+3581	glycerol 3-phosphate transport, cytoplasm-lipid particle
+3958	glycerol 3-phosphate transport, mitochondrion-mitochondrial membrane
+1171	glycerol transport
+1172	glycerol transport via channel
+3597	glycerol transport, lipid particle-cytoplasm
+extra	glycerol transport, mm - cy
+1809	glycerol-3-phosphate shuttle
+1811	glycine transport
+1173	glycine transport
+1812	glycoaldehyde transport
+1813	glycoaldehyde transport
+1174	glycogen vacuolar transport via autophagy
+1816	glyoxylate transport
+1817	glyoxylate transport
+1175	GTP/GDP translocase
+1819	guanine transport
+1176	guanine transport
+1822	guanosine transport
+1823	guanosine transport
+1824	H+ diffusion
+1825	H+ diffusion
+1826	H+ diffusion
+1827	H+ diffusion
+1829	H+ diffusion
+1830	H+ diffusion
+1831	H+ diffusion
+3603	H+ transport, cytoplasm-cell envelope
+3525	H+ transport, cytoplasm-ER membrane
+3664	H+ transport, cytoplasm-Golgi membrane
+3650	H+ transport, cytoplasm-vacuolar membrane
+3957	H+ transport, mitochondrion-mitochondrial membrane
+3604	H2O transport, cytoplasm-cell envelope
+3526	H2O transport, cytoplasm-ER membrane
+3662	H2O transport, cytoplasm-Golgi membrane
+3596	H2O transport, cytoplasm-lipid particle
+3668	H2O transport, cytoplasm-mitochondrial membrane
+3648	H2O transport, cytoplasm-vacuolar membrane
+4040	heme a transport
+1833	hexacosanoyl-CoA transport
+3615	hexacosanoyl-CoA transport, cell envelope-cytoplasm
+3524	hexacosanoyl-CoA transport, cytoplasm-ER membrane
+3600	hexacosanoyl-CoA transport, lipid particle-cytoplasm
+yli0002	hexadecane transport e--c
+1835	hexadecanoate (n-C16:0) transport
+3571	hexadecanoate (n-C16:0) transport, cytoplasm-lipid particle
+1836	hexadecenoate (n-C16:1) transport
+3572	hexadecenoate (n-C16:1) transport, cytoplasm-lipid particle
+2191	hexanoate (n-C6:0) transport
+2230	hexanoate (n-C6:0) transport, cytoplasm-peroxisome
+1839	hydrogen peroxide transport
+1840	hydroxymethylglutaryl-CoA transport
+1842	hypoxanthine transport
+3612	icosanoyl-CoA transport, cell envelope-cytoplasm
+3521	icosanoyl-CoA transport, cytoplasm-ER membrane
+1846	indole-3-acetate transport
+1848	inosine transport
+1849	inositol hexakisphosphate transport
+1177	inositol transport
+1851	IPC transport
+1852	IPC transport
+1853	IPC transport
+1854	IPC transport
+1855	IPC transport
+1856	IPC transport
+1857	IPC transport
+1858	IPC transport
+1859	IPC transport
+1860	IPC transport
+1179	iron (II) transport
+1180	isoamyl acetate transport
+1863	isoamyl alcohol transport
+1864	isoamyl alcohol transport
+yli0015	isocitrate transport
+1182	isopentenyl diphosphate transport
+1874	L-alanine transport
+1183	L-alanine transport
+1225	lanosterol transport
+3551	lanosterol transport, cytoplasm-ER membrane
+3719	lanosterol transport, ER membrane-lipid particle
+3728	lanosteryl oleate transport, ER membrane-lipid particle
+3727	lanosteryl palmitoleate transport, ER membrane-lipid particle
+1876	L-arabinitol transport
+1877	L-arabinoase transport
+1184	L-arganine transport
+1187	L-asparagine transport
+1186	L-asparagine transport
+1188	L-aspartate transport
+1189	L-aspartate transport
+1190	L-aspartate transport
+2186	laurate (n-C12:0) transport
+1771	laurate (n-C12:0) transport, cytoplasm-peroxisome
+3508	laurate transport, cytoplasm-ER membrane
+3681	laurate transport, ER membrane-lipid particle
+3515	lauroyl-CoA transport, cytoplasm-ER membrane
+3575	lauroyl-CoA transport, cytoplasm-lipid particle
+1191	L-carnitine transport
+1882	L-carnitine transport
+1192	L-cystine transport
+1884	L-erythro-4-hydroxyglutamate transport
+1885	L-erythro-4-hydroxyglutamate transport
+yli0030	Leucine transport
+1194	L-glutamate transport
+1195	L-glutamate transport
+1890	L-glutamate transport
+1196	L-glutamate transport
+1197	L-glutamine transport
+1198	L-glutamine transport
+1892	L-glutamine transport
+1199	L-glutamine transport
+1201	L-histidine transport
+1837	L-histidine transport, mitochondrial
+1895	L-homoserine transport
+3901	lignoceric acid transport, cell envelope-ER membrane
+3937	lignoceric acid transport, ER membrane-ER
+3683	lignoceric acid transport, ER membrane-lipid particle
+yli0018	linoleoyl-CoA transport, cytoplasm-ER membrane
+yli0019	linoleoyl-CoA transport, cytoplasm-lipid particle
+yli0020	linoleoyl-CoA transport, cytoplasm-mitochondrial membrane
+xLIPID	lipid pseudoreaction
+1203	L-isoleucine transport
+1204	L-isoleucine transport
+1898	L-isoleucine transport
+1205	L-isoleucine transport
+1206	L-lactate transport
+1207	L-lactate transport
+1211	L-leucine transport
+1209	L-leucine transport, vacuoluar
+1210	L-leucine transport, vacuoluar
+1213	L-lysine transport
+1901	L-malate transport
+1214	L-methionine transport
+1215	L-phenylalanine transport
+1905	L-proline transport
+1216	L-proline transport
+1907	L-serine transport
+1217	L-serine transport
+3545	L-serine transport, cytoplasm-ER membrane
+1908	L-sorbitol transport
+1910	L-sorbose transport
+1218	L-threonine transport
+1219	L-tryptophan transport
+1222	L-tyrosine transport
+1221	L-tyrosine transport
+1223	L-tyrosine transport
+1224	L-valine transport
+1919	lysine transport
+1920	M(IP)2C transport
+1921	M(IP)2C transport
+1922	M(IP)2C transport
+1923	M(IP)2C transport
+1924	M(IP)2C transport
+1925	M(IP)2C transport
+1926	M(IP)2C transport
+1927	M(IP)2C transport
+1928	M(IP)2C transport
+1929	M(IP)2C transport
+1226	malate transport
+1930	malate/oxaloacetate shuttle
+3514	malonyl-CoA transport, cytoplasm-ER membrane
+1932	mannan transport
+yli0043	mannitol transport extracellular
+1935	methionine transport
+1937	MIPC transport
+1938	MIPC transport
+1939	MIPC transport
+1940	MIPC transport
+1941	MIPC transport
+1942	MIPC transport
+1943	MIPC transport
+1944	MIPC transport
+1945	MIPC transport
+1946	MIPC transport
+3546	myo-inositol transport, cytoplasm-ER membrane
+1777	myristate (n-C14:0) transport
+1772	myristate (n-C14:0) transport, cytoplasm-peroxisome
+3509	myristate transport, cytoplasm-ER membrane
+3682	myristate transport, ER membrane-lipid particle
+3516	myristoyl-CoA transport, cytoplasm-ER membrane
+3576	myristoyl-CoA transport, cytoplasm-lipid particle
+1230	NAD transport
+1231	NAD transport
+1232	NAD transport
+1229	NAD transport
+3533	NAD transport, cytoplasm-ER membrane
+3532	NADH transport, cytoplasm-ER membrane
+1963	NADP(+) transport
+3530	NADP(+) transport, cytoplasm-ER membrane
+3584	NADP(+) transport, cytoplasm-lipid particle
+1964	NADPH transport
+3529	NADPH transport, cytoplasm-ER membrane
+3583	NADPH transport, cytoplasm-lipid particle
+1965	NH3 transport
+1966	nicotinamide diffusion
+1235	nicotinate transport
+1970	NMN transport
+1971	NMN transport
+1972	NMN transport
+xMAINTENANCE	Non-growth associated maintenance (NGAM)
+1977	O2 transport
+1978	O2 transport
+1979	O2 transport
+1980	O2 transport
+3531	O2 transport, cytoplasm-ER membrane
+1976	O-acetylcarnintine transport into mitochondria
+1236	octadecanoate (n-C18:0) transport
+1981	octadecanoate (n-C18:0) transport
+3573	octadecanoate (n-C18:0) transport, cytoplasm-lipid particle
+2192	octadecenoate (n-C18:1) transport
+yli0016	octadecenoate (n-C18:1) transport
+yli0028	octadecenoate (n-C18:1) transport
+3574	octadecenoate (n-C18:1) transport, cytoplasm-lipid particle
+2231	octadecenoate (n-C18:1) transport, cytoplasm-peroxisome
+yli0017	octadecenoate (n-C18:1) transport, cytoplasm-peroxisome
+2184	octanoate (n-C8:0) transport
+1776	octanoate (n-C8:0) transport, cytoplasm-peroxisome
+3611	oleate transport, cell envelope-cytoplasm
+3513	oleate transport, cytoplasm-ER membrane
+3520	oleoyl-CoA transport, cytoplasm-ER membrane
+3580	oleoyl-CoA transport, cytoplasm-lipid particle
+3671	oleoyl-CoA transport, cytoplasm-mitochondrial membrane
+1237	ornithine transport
+1238	orntithine transport
+1239	oxaloacetate transport
+1988	oxaloacetate transport
+1990	oxidized glutathione uniport
+1991	oxidized thioredoxin transport
+2132	oxoglutarate/malate exchange
+1774	palmitate (n-C16:0) transport, cytoplasm-peroxisome
+3608	palmitate transport, cell envelope-cytoplasm
+3510	palmitate transport, cytoplasm-ER membrane
+3678	palmitate transport, mitochondrial membrane-cytoplasm
+1775	palmitoleate (n-C16:1) transport, cytoplasm-peroxisome
+3609	palmitoleate transport, cell envelope-cytoplasm
+3511	palmitoleate transport, cytoplasm-ER membrane
+3518	palmitoleoyl-CoA transport, cytoplasm-ER membrane
+3578	palmitoleoyl-CoA transport, cytoplasm-lipid particle
+3670	palmitoleoyl-CoA transport, cytoplasm-mitochondrial membrane
+1995	palmitoyl-CoA transport
+3517	palmitoyl-CoA transport, cytoplasm-ER membrane
+3577	palmitoyl-CoA transport, cytoplasm-lipid particle
+1996	panthetheine 4-phosphate transport
+1241	pantothenate transport
+1998	PAP uniport
+1242	pentaprenyl diphosphate transport
+2004	phenylalanine transport
+2008	phosphate transport
+1244	phosphate transport
+1245	phosphate transport
+3605	phosphate transport, cytoplasm-cell envelope
+3537	phosphate transport, cytoplasm-ER membrane
+3663	phosphate transport, cytoplasm-Golgi membrane
+3649	phosphate transport, cytoplasm-vacuolar membrane
+3940	phosphate transport, ER-ER membrane
+3961	phosphate transport, mitochondrion-mitochondrial membrane
+3903g	phosphatidate transport, cell envelope-ER membrane
+3797g	phosphatidate transport, ER membrane-Golgi membrane
+3759g	phosphatidate transport, ER membrane-mitochondrial membrane
+3829g	phosphatidate transport, ER membrane-vacuolar membrane
+3755g	phosphatidate transport, lipid particle-ER membrane
+3877g	phosphatidylcholine transport, ER membrane-cell envelope
+3996	phosphatidylcholine transport, ER membrane-cytoplasm
+3731g	phosphatidylcholine transport, ER membrane-lipid particle
+3781g	phosphatidylcholine transport, ER membrane-mitochondrial membrane
+3885g	phosphatidylethanolamine transport, ER membrane-cell envelope
+4005	phosphatidylethanolamine transport, ER membrane-cytoplasm
+3739g	phosphatidylethanolamine transport, ER membrane-lipid particle
+3821g	phosphatidylethanolamine transport, Golgi membrane-ER membrane
+3773g	phosphatidylethanolamine transport, mitochondrial membrane-ER membrane
+3853g	phosphatidylethanolamine transport, vacuolar membrane-ER membrane
+3893g	phosphatidyl-L-serine transport, ER membrane-cell envelope
+3987	phosphatidyl-L-serine transport, ER membrane-cytoplasm
+3813g	phosphatidyl-L-serine transport, ER membrane-Golgi membrane
+3765g	phosphatidyl-L-serine transport, ER membrane-mitochondrial membrane
+3845g	phosphatidyl-L-serine transport, ER membrane-vacuolar membrane
+1249	potassium transport
+2129	proton leak
+2022	protoporphyrinogen IX transport
+2023	PRPP transport
+1251	putrescine transport
+1252	putrescine transport
+2032	pyrophosphate transport
+2034	pyruvate transport
+1254	pyruvate transport
+2036	quinolinate transport
+964	reduced glutathione via ABC system
+2037	reduced thioredoxin transport
+2039	riboflavin transport
+2040	riboflavin transport
+2041	ribose transporter
+2042	S-adenosyl-L-homocysteine transport
+3548	S-adenosyl-L-homocysteine transport, cytoplasm-ER membrane
+1256	S-adenosyl-L-methionine transport
+1255	S-adenosyl-L-methionine transport
+3547	S-adenosyl-L-methionine transport, cytoplasm-ER membrane
+2045	serine transport
+1257	S-methylmethionine permease
+3606	sn-glycero-3-phosphocholine transport, cell envelope-cytoplasm
+3570	sn-glycero-3-phosphocholine transport, ER membrane-cytoplasm
+1258	sodium proton antiporter
+1260	spermidine transport
+1261	spermidine transport
+1262	spermine transport
+2053	squalene transport
+2054	squalene-2,3-epoxide transport
+3610	stearate transport, cell envelope-cytoplasm
+3512	stearate transport, cytoplasm-ER membrane
+3679	stearate transport, mitochondrial membrane-cytoplasm
+3519	stearoyl-CoA transport, cytoplasm-ER membrane
+3579	stearoyl-CoA transport, cytoplasm-lipid particle
+1264	succinate transport
+2057	succinate transport
+1265	succinate-fumarate transport
+1266	sulfate uniport
+1267	sulfite transport
+3685g	TAG transport, ER membrane-lipid particle
+1028	taurcholate via ABC system
+1268	taurine transport
+2063	tetracosanoyl-CoA transport
+3614	tetracosanoyl-CoA transport, cell envelope-cytoplasm
+3523	tetracosanoyl-CoA transport, cytoplasm-ER membrane
+3599	tetracosanoyl-CoA transport, lipid particle-cytoplasm
+1269	thiamine diphosphate transport
+1270	thiamine transport
+2072	threonine transport
+2075	thymidine transport
+2079	trehalose transporter
+2080	trehalose vacuolar transport
+4038	triglyceride transport, ER membrane-cytoplasm
+2082	tryptophan transport
+2086	tyrosine transport
+2087	tyrosine transport
+2089	UMP transport
+1272	uracil transport
+1273	urea transport
+1274	uridine transport
+1275	UTP transport
+1276	UTP/UMP antiport
+2093	valine transport
+1277	water diffusion
+2094	water diffusion
+2095	water diffusion
+2096	water diffusion
+2097	water diffusion
+2098	water diffusion
+2099	water diffusion
+2101	xanthine transport
+2103	xanthosine transport
+xBIOMASS	xBIOMASS
+2105	xylitol transport
+2107	zymosterol transport
+3553	zymosterol transport, cytoplasm-ER membrane
+3720	zymosterol transport, ER membrane-lipid particle
+3928	zymosteryl oleate transport, ER membrane-cell envelope
+3730	zymosteryl oleate transport, ER membrane-lipid particle
+3927	zymosteryl palmitoleate transport, ER membrane-cell envelope
+3729	zymosteryl palmitoleate transport, ER membrane-lipid particle
+yli0053	FAD:ubiquinone oxidoreductase
+xCARBOHYDRATE   carbohydrate pseudoreaction
+xDNA    DNA pseudoreaction
+xRNA    RNA pseudoreaction
+xION    ion pseudoreaction

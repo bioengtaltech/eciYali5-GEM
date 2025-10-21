@@ -1,0 +1,39 @@
+proteins	genes	gene_name	kcat	rxns	notes	stoicho
+			3054.42	1110	Transport reaction. Kcat set to 10^3 order of magnitude	1
+			2081.9	1117	Transport reaction. Kcat set to 10^3 order of magnitude	1
+			2983.5	1171	Transport reaction. Kcat set to 10^3 order of magnitude	1
+			578	1237	Transport reaction. Kcat set to 10^2 order of magnitude	1
+			989.79	1245	Transport reaction. Kcat set to 10^3 order of magnitude	1
+			989.79	1277_REV	Transport reaction. Kcat set to 10^3 order of magnitude	1
+Q6C564	YALI0E20691g	YALI0E20691g	42.93	354	Output of sensitivityTuning.  Calculated by multiplying highest kcat/Km * Km of Escherichia coli (EC 2.7.1.29)	1
+Q6CDD3	YALI0C01411g	YALI0C01411g	51.419		Output of sensitivityTuning.  Calculated from the specific activity of N. crassa (Brenda)	1
+Q6C7Y2	YALI0D24409g	YALI0D24409g	4.97	912	Output of sensitivityTuning. Using kcat of E. coli (EC 2.1.2.3)	1
+P38997	YALI0B15444g	YALI0B15444g	71.7479	988	Output of sensitivityTuning.  Calculated from the specific activity of S. cerevisiae (EC 1.5.1.7)	1
+Q6C8F2	YALI0D20152g	YALI0D20152g	38	760	Output of sensitivityTuning.  Using kcat of Aspergillus fumigatus (EC 2.3.1.4)	1
+Q6CAN4	YALI0D01265g	YALI0D01265g	34.635	30	Output of sensitivityTuning. Calculated from the specific activity of N. crassa (Brenda)	1
+Q6CA34	YALI0D06281g	YALI0D06281g	70.9	361	Output of sensitivityTuning. Using kcat of S. cerevisiae (EC 2.4.1.83)	1
+			13.8	362	Output of sensitivityTuning. Using standard kcat instead	1
+Q6C6T4	YALI0E06479g	YALI0E06479g	56.7	1049	Output of sensitivityTuning. Using kcat of S. cerevisiae (EC 2.2.1.1)	1
+Q6CEQ0	YALI0B13970g	YALI0B13970g	2699.2	490	Output of sensitivityTuning.  Calculated from the specific activity of S. cerevisiae (EC 1.1.1.8)	1
+Q6C4K5	YALI0E26004g	YALI0E26004g	13.8	990_REV	Output of sensitivityTuning. Using standard kcat instead	1
+Q6CD79	YALI0C03025g	YALI0C03025g	12.3903	173	"Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."	1
+Q6C9V7	YALI0D07942g	YALI0D07942g	6.7826	2116	"Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."	1
+Q6C2W9	YALI0F04444g	YALI0F04444g	9.1103	2116	"Putative enzyme. Using the lowest kcat instead, which is the one predicted by DLKcat in this case."	1
+Q6C8V3	YALI0D16753g	YALI0D16753g	83.2	713	kcat from BRENDA (highest) was causing overuse of the NADH shuttle. Using highest kcat in the same order of magnitude predicted by DLKcat.	1
+Q6C5X9	YALI0E14190g	YALI0E14190g	3.1018	713	kcat from BRENDA was causing overuse of the NADH shuttle. Using value of DLKcat instead.	1
+Q6C2Y4	YALI0F04095g	YALI0F04095g	72		kcat of Yali listed in BRENDA (EC: 1.1.1.42)	1
+	YALI0E16929g	YALI0E16929g	186	"505, 831, 832"	kcat of Yali listed in BRENDA (EC: 2.3.1.61)	1
+Q6CE88	YALI0B17644g	YALI0B17644g	13.8	"236, 237"	Limits model when adding proteomics data. Using standardKcat.	1
+Q6CA02	YALI0D06974g	YALI0D06974g	605	"553, 554"	Limits model when adding proteomics data. Using kcat of S. cerevisiae instead (EC 3.1.2.6)	1
+Q6C454	YALI0E29579g	YALI0E29579g	13.8	882	Limits model when adding proteomics data. Using standardKcat.	1
+Q6C5R8	YALI0E15730g	YALI0E15730g	1.38		Limits model when adding proteomics data. Using standardKcat/10 instead.	1
+Q6C231	YALI0F11297g	YALI0F11297g	13.8	"238, 239, 240, 241"	Output of sensitivityTuning and limits the model after proteomics. Using standard kcat.	1
+Q6C9Q2	YALI0D09229g	YALI0D09229g	81	2126	Limits model when adding proteomics data. Using kcat of Synechocystis sp instead (EC 3.1.3.37)	1
+Q6CGM4	YALI0A18062g	YALI0A18062g	1.38	233	Limits model when adding proteomics data. Using standardKcat/10 instead.	1
+Q6C8C2	YALI0D20878g	YALI0D20878g	1.38	242	Limits model when adding proteomics data. Using standardKcat/10 instead.	1
+Q6C791	YALI0E02728g	YALI0E02728g	2.5	27	Limits model when adding proteomics data. Using kcat of M. jannaschii instead (EC 4.2.1.36)	1
+Q6C704	YALI0E04807g	YALI0E04807g	13.8	558	Limits model when adding proteomics data. Using standardKcat.	1
+Q6C0K8	YALI0F23837g	YALI0F23837g	0.145	251u	Limits model when adding proteomics data. Using standardKcat/100 instead	1
+Q6CCZ6	YALI0C05258g	YALI0C05258g	1450		Limits model when adding proteomics data. Using standardKcat*100 instead	1
+Q6CAY2	YALI0C23408g	YALI0C23408g	11.5		Limits model when adding proteomics data. Using highest kcat in BRENDA for the same substrate (EC 4.2.1.9)	1
+Q6CAZ2	YALI0C23210g	YALI0C23210g	1400		Same kcat for all kinds of reactions	1
