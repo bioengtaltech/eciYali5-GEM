@@ -113,7 +113,7 @@ ecGEMpath = fullfile(baseDir, 'model');
 
 % Save files
 if binaryFiles == false
-    exportForGit(model,'eciYali5-GEM',ecGEMpath,{'xml','yml','txt'},false,false);
+    exportForGit(ecModel,'eciYali5-GEM',ecGEMpath,{'xml','yml','txt'},false,false);
 else
-    exportForGit(model,'eciYali5-GEM',ecGEMpath,{'xml','yml','txt','xlsx','mat'},false,false);
+    exportForGit(ecModel,'eciYali5-GEM',ecGEMpath,{'xml','yml','txt','xlsx','mat'},false,false);
 end
