@@ -1,0 +1,18 @@
+rxnNames	Acronym
+phytoene dehydrogenase (lumped)	CarB
+phytoene synthase	CarRP*
+lycopene cyclase (lumped);	CarRP**
+hydroxymethylglutaryl CoA synthase	ERG13
+farnesyltranstransferase	ERG20
+hydroxymethylglutaryl CoA reductase	HMG1
+ATP-citrate lyase	ACL1
+enolase	ENO
+acetyl-CoA C-acetyltransferase	ACACT
+transaldolase	TAL
+fatty-acyl-CoA synthase (n-C18:0CoA)	FAS1-2 (C18)
+"stearoyl-CoA desaturase (n-C18:0CoA - n-C18:1CoA), ER membrane"	FAD2
+transketolase 2	TKL
+glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase	SCT1
+6-phosphogluconolactonase	PGLS
+fatty-acyl-CoA synthase (n-C16:0CoA)	FAS1-2 (C16)
+"sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase (reversible)"	FBA3
