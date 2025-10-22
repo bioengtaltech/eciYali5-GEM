@@ -1,9 +1,3 @@
-> Instructions for this `README` (please delete after reading):  
-This is the `README.md` template provided by [standard-GEM](https://github.com/MetabolicAtlas/standard-GEM) and was crafted to cover most use-cases.  
-Feel free to edit this template `README`. Blanks are indicated by `{{ test }}`. One may use a search function to find these `{{`. Here are some examples of blanks used throughout this file: `{{organization or username}}` is the organization name or username for this GitHub repository, eg. `SysBioChalmers`; `{{repository name}}` is the name of this GitHub repository, eg. `yeast-GEM`.  
-If you find this template does not fit your needs, we would appreciate if you could report this by creating a new issue on [standard-GEM](https://github.com/MetabolicAtlas/standard-GEM/issues).
-
-
 ## eciYali5-GEM: Enzyme constrained GEM for Yarrowia lipolytica
 
 [![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/yeast-gem)  
@@ -41,12 +35,17 @@ This repository contains the current enzyme-constrained genome-scale metabolic m
 
 ### Installation
 
-{{ Be mindful of users who do not have a typical background - provide a clear overview of the required software. Also, there might be different requirements for users and collaborators. }}
+You can obtained the model by any of the following method(s):
+1. If you have a Git client installed on your computer, you can clone the [`main`](https://github.com/bioengtaltech/eciYali5-GEM) branch of the eciYali5-GEM repository.
 
 
-### Usage
+### Required software
 
-{{ Describe how to load and save the model. }}
+To use the models and scripts in this repository, you will need the following software:
+
+1.  **MATLAB:** The scripts for the metabolic modeling were written in MATLAB (2024b).
+2.  **RAVEN Toolbox:** The RAVEN toolbox (v2.10.3 or later) was used for running the simulations.
+3.  **GECKO Toolbox:** The GECKO Toolbox (v3.2.2) was used to generate the ecGEMs
 
 
 ### Contributing
@@ -56,4 +55,4 @@ Contributions are always welcome! Please read the [contributing guideline](.gith
 
 ### Contributors
 
-Code contributors are reported automatically by GitHub under [Contributors](https://github.com/{{organization or username}}/{{repository name}}/graphs/contributors), while other contributions come in as [Issues](https://github.com/{{organization or username}}/{{repository name}}/issues).
+Code contributors are reported automatically by GitHub under [Contributors](https://github.com/bioengtaltech/eciYali5-GEM/graphs/contributors), while other contributions come in as [Issues](https://github.com/bioengtaltech/eciYali5-GEM/issues).
