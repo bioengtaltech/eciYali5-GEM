@@ -20,9 +20,12 @@ if ~exist(subDirPath, 'dir')
 end
 
 % Get model adapter and load flux data
-adapterLocation = fullfile(pwd,'ecModelAdapter.m');
+adapterLocation = fullfile(pwd,'eciYali5GEMadapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
 params = ModelAdapter.getParameters();
+
+% Set specific models path
+specificEcGEMpath = fullfile(params.path,'model','contextSpecific_eciYali5-GEM');
 
 fluxData = loadFluxData();
 model = loadConventionalGEM();
@@ -36,7 +39,8 @@ for i = 1:length(fluxData.conds)
     fileName = [modelName,'_prot.yml'];
 
     % Load model: already constrained with 10% variance around chemostat fluxes
-    ecModel = loadEcModel(fileName);
+
+    ecModel = readYAMLmodel(fullfile(specificEcGEMpath,fileName));
 
     % Set bounds for biomass too
     ecModel = setParam(ecModel,'obj','xBIOMASS',1);
@@ -144,7 +148,7 @@ end
 
 % Create annotations and rxnGoTerms tables (done once for the entire model)
 % Define the annotations output filename
-annotationsTableName = fullfile(projectRoot,'R_Analysis','data','raw','subSystemsAnnotations.csv');
+annotationsTableName = fullfile(projectRoot,'debiaggi2025','R_Analysis','data','raw','subSystemsAnnotations.csv');
 
 % Create a table with the required columns
 annotationsTable = table(model.rxnNames, model.subSystems, ...
@@ -159,6 +163,6 @@ rxnGoTermsTable = table(rxnIds, model.grRules, ...
     'VariableNames', {'rxns', 'genes'});
 
 % Export the table to a CSV file (semicolon-delimited)
-rxnGoTermsFilename = fullfile(projectRoot,'R_Analysis','data','raw','rxnGoTermsTable.csv');
+rxnGoTermsFilename = fullfile(projectRoot,'debiaggi2025','R_Analysis','data','raw','rxnGoTermsTable.csv');
 writetable(rxnGoTermsTable, rxnGoTermsFilename, 'Delimiter', ';');
 disp(['Reaction GO Terms saved to ', rxnGoTermsFilename]);
