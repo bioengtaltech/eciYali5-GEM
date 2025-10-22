@@ -9,6 +9,9 @@ params = ModelAdapter.getParameters();
 % Get pooled model path
 eciYali5path = fullfile(params.path,'model','eciYali5-GEM.yml');
 
+% Set specific models path
+specificEcGEMpath = fullfile(params.path,'model','contextSpecific_eciYali5-GEM');
+
 % Load pooled model
 ecModel = readYAMLmodel(eciYali5path);
 
@@ -104,16 +107,16 @@ for i = 1:length(fluxData.conds)
 
     %% Update Biomass Equation
     % Change protein content in the biomass equation
-    ecModel_new = scaleBioMassYali4(ecModel_new, 'protein', fluxData.Ptot(i));
+    ecModel_new = scaleBioMassYali5(ecModel_new, 'protein', fluxData.Ptot(i));
 
     % Change lipid content in the biomass equation
-    ecModel_new = scaleBioMassYali4(ecModel_new, 'lipid', lipidNchainData.Ltot(i));
+    ecModel_new = scaleBioMassYali5(ecModel_new, 'lipid', lipidNchainData.Ltot(i));
 
     % Adjust fatty acid distribution
     ecModel_new = updateAcylPool(ecModel_new, lipidNchainData, i, ModelAdapter);
 
     % Balance out mass with carbohydrate content
-    [X,~,C,~,~,~,~] = sumBioMassYali4(ecModel_new, false);
+    [X,~,C,~,~,~,~] = sumBioMassYali5(ecModel_new, false);
 
     delta = X - 1;  % difference to balance
     fC = (C - delta)/C;
@@ -127,7 +130,7 @@ for i = 1:length(fluxData.conds)
 
     % Save pooled model
     if saveModels == true
-        saveEcModel(ecModel_new,[ecModel_new.id,'.yml']);
+        writeYAMLmodel(ecModel_new,fullfile(specificEcGEMpath,ecModel_new.id))
     end
 
     % Constrain model with proteomics data
@@ -215,6 +218,6 @@ for i = 1:length(fluxData.conds)
 
     % Save proteome model
     if saveModels == true
-        saveEcModel(ecModel_new,[ecModel_new.id,'.yml']);
+        writeYAMLmodel(ecModel_new,fullfile(specificEcGEMpath,ecModel_new.id))
     end
 end
