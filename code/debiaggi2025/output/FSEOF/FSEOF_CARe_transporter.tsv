@@ -1,0 +1,6 @@
+rxn_IDs	rxnNames	slope	grRules	rxn_formula
+1110	ADP/ATP transporter	45.3816288130151	YALI0A10659g or YALI0D08228g or YALI0F19712g	ADP[c] + ATP[m] <=> ATP[c] + ADP[m]
+1115	ammonia transport	9.24063376632374	YALI0E27203g or YALI0F12925g or YALI0C23617g or YALI0A19228g or YALI0F16896g or YALI0A02244g or YALI0B13794g	ammonium[e] <=> ammonium[c]
+1129	coenzyme A transport	6.09293820472168	YALI0F15433g	coenzyme A[c] => coenzyme A[m]
+1126	citrate transport	2.86202685669577	YALI0F26323g	citrate[c] + (S)-malate[m] <=> citrate[m] + (S)-malate[c]
+1265	succinate-fumarate transport	0.536796803041786	YALI0E34672g	fumarate[m] + succinate[c] => fumarate[c] + succinate[m]

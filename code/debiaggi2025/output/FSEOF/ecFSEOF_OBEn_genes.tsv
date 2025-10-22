@@ -1,0 +1,43 @@
+gene_IDs	gene_names	slope	action	essentiality	rxnNames	rxnIDs
+YALI0B21527g	YALI0B21527g	0.478656474532712	KD		ATP synthase	226_EXP_2
+YALI0E02684g	YALI0E02684g	0.258276413154951	OE		2-methylcitrate synthase; citrate synthase; citrate synthase, peroxisomal	28_EXP_2; 300_EXP_2; 301_EXP_2
+YALI0B15598g	YALI0B15598g	0.194714100144371	OE	essential	phosphogluconate dehydrogenase	889
+YALI0C19085g	YALI0C19085g	0.194714100144371	OE		6-phosphogluconolactonase	91_EXP_1
+YALI0E22649g	YALI0E22649g	0.194714100144371	OE	essential	glucose 6-phosphate dehydrogenase	466
+YALI0F07711g	YALI0F07711g	0.162535534258472	OE	essential	glucose-6-phosphate isomerase	467
+YALI0C11880g	YALI0C11880g	0.138313256385807	OE	essential	ribulose 5-phosphate 3-epimerase	984
+YALI0F09185g	YALI0F09185g	0.117733642177798	OE		pyruvate kinase	962
+YALI0B02728g	YALI0B02728g	0.109292630119828	OE		diphosphoglyceromutase; phosphoglycerate mutase	356; 893
+YALI0F16819g	YALI0F16819g	0.109292630119828	OE		enolase	366
+YALI0C11803g	YALI0C11803g	0.0964695179505356	KD		inorganic diphosphatase	568_EXP_1; 569_EXP_1
+YALI0C06369g	YALI0C06369g	0.0844491412634909	OE	essential	glyceraldehyde-3-phosphate dehydrogenase	486
+YALI0D12400g	YALI0D12400g	0.0844491412634909	OE	essential	phosphoglycerate kinase	892
+YALI0C24101g	YALI0C24101g	0.083254152358569	KD		pyruvate carboxylase	958
+YALI0E06479g	YALI0E06479g	0.0691566281929033	OE	essential	transketolase 1; transketolase 2	1049; 1050
+YALI0F15587g	YALI0F15587g	0.0670463751784107	OE		transaldolase	1048
+YALI0B06941g	YALI0B06941g	0.0564008437585642	OE	essential	ribose-5-phosphate isomerase	982
+YALI0D09361g	YALI0D09361g	0.0451812527267683	KD		cis-aconitate(3-) to isocitrate; citrate to cis-aconitate(3-); citrate to cis-aconitate(3-), cytoplasmic	2305_EXP_1; 280_EXP_1; 302_EXP_1; 303
+YALI0F09229g	YALI0F09229g	0.0373443609440113	KD	essential	nucleoside diphosphate kinase; nucleoside-diphosphate kinase (ATP:UDP)	795; 796; 797; 798; 799; 800; 801; 802; 803; 811
+YALI0A02310g	YALI0A02310g	0.0318282163618163	KD		UTP-glucose-1-phosphate uridylyltransferase	1084
+YALI0E02090g	YALI0E02090g	0.0318282163618163	KD	essential	phosphoglucomutase; phosphopentomutase	888; 907_EXP_2
+YALI0E21021g	YALI0E21021g	0.0315984460208127	KD		1,3-beta-glucan synthase	5_EXP_2
+YALI0B21428g	YALI0B21428g	0.0290850398416716	KD	essential	glutamine-fructose-6-phosphate transaminase	477
+YALI0D20152g	YALI0D20152g	0.0290850398416716	KD	essential	N-acetylglucosamine-6-phosphate synthase	760
+YALI0E03146g	YALI0E03146g	0.0290850398416716	KD	essential	UDP-N-acetylglucosamine diphosphorylase	1069
+YALI0E10417g	YALI0E10417g	0.0290850398416716	KD		chitin synthase	272_EXP_5
+YALI0E29579g	YALI0E29579g	0.0290850398416716	KD	essential	phosphoacetylglucosamine mutase; phosphoglucosamine mutase	882; 890
+YALI0E20977g	YALI0E20977g	0.0282291921993058	KD		tryptophan transaminase; tyrosine transaminase; 2-aminoadipate transaminase; phenylalanine transaminase	1056; 1063; 18_EXP_2; 2117_EXP_2; 2119_EXP_2; 851
+YALI0C05951g	YALI0C05951g	0.0265632191498162	OE	essential	palmitoyl-CoA desaturase (n-C16:0CoA - n-C16:1CoA), ER membrane; stearoyl-CoA desaturase (n-C18:0CoA - n-C18:1CoA), ER membrane; oleoyl-CoA desaturase (n-C18:1CoA - n-C18:2CoA), ER membrane	2182; 2183; yli0009
+YALI0B20438g	YALI0B20438g	0.0248434888563366	KD	essential	phosphoserine phosphatase (L-serine)	917
+YALI0F06468g	YALI0F06468g	0.0248434888563366	KD	essential	phosphoserine transaminase	918
+YALI0F09966g	YALI0F09966g	0.0248434888563366	KD	essential	phosphoglycerate dehydrogenase	891
+YALI0B00704g	YALI0B00704g	0.0242132853401117	KD	essential	adenylate kinase	148
+YALI0C06776g	YALI0C06776g	0.0208481654209765	KD	essential	fumarase; fumarase, cytoplasmic	451; 452
+YALI0E18634g	YALI0E18634g	0.0195420679850107	KD		malic enzyme (NAD); malic enzyme (NADP)	718; 719
+YALI0D22484g	YALI0D22484g	0.0142684456444991	KD		glycine hydroxymethyltransferase	502_EXP_1; 503_EXP_1
+YALI0D27016g	YALI0D27016g	0.0134819014180952	OE		diacylglycerol pyrophosphate phosphatase	337u
+YALI0E32769g	YALI0E32769g	0.0134591758997038	OE		diacylglycerol acyltransferase	336u_1_EXP_1; 336u_EXP_1
+YALI0C00209g	YALI0C00209g	0.0123099052372539	OE	essential	glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase	493; 494; 495; 496
+YALI0E18964g	YALI0E18964g	0.0123099052372539	OE		1-acyl-sn-gylcerol-3-phosphate acyltransferase	8u_EXP_1; 9u_EXP_1
+YALI0B13970g	YALI0B13970g	0.0122703403450164	KD	essential	glycerol-3-phosphate dehydrogenase (fad); glycerol-3-phosphate dehydrogenase (FAD)	490; G3PD
+YALI0E01056g	YALI0E01056g	0.0102864519899278	KD		formate-tetrahydrofolate ligase; methenyltetrahydrifikate cyclohydrolase; methenyltetrahydrofolate cyclohydrolase; methylenetetrahydrofolate dehydrogenase (NADP)	446_EXP_1; 447_EXP_1; 724_EXP_1; 725_EXP_1; 732_EXP_1; 733_EXP_1

@@ -1,0 +1,80 @@
+gene_IDs	gene_names	slope	action	essentiality	rxnNames	rxnIDs
+YALI0A10659g	YALI0A10659g	0.532858832334984	KD		ADP/ATP transporter	1110
+YALI0D08228g	YALI0D08228g	0.532858832334984	KD		ADP/ATP transporter	1110
+YALI0F19712g	YALI0F19712g	0.532858832334984	KD		ADP/ATP transporter	1110
+YALI0C05753g	YALI0C05753g	0.385170962839855	KD		phosphate transport	1245
+YALI0F14223g	YALI0F14223g	0.385170962839855	KD		phosphate transport	1245
+YALI0D02629g	YALI0D02629g	0.246763921528595	KD	essential	2-oxoadipate and 2-oxoglutarate transport; oxoglutarate/malate exchange	1099; 2132
+YALI0F26323g	YALI0F26323g	0.241034432772095	OE		citrate transport	1126; 1127; 1128
+YALI0B02178g	YALI0B02178g	0.21079109632137	KD		tyrosine transaminase; aspartate transaminase; L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase	1065; 216; 217; 218; 681; 682; 683
+YALI0F29337g	YALI0F29337g	0.21079109632137	KD		tyrosine transaminase; aspartate transaminase; L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase	1065; 216; 217; 218; 681; 682; 683
+YALI0E00638g	YALI0E00638g	0.201299278707577	OE		2-methylcitrate synthase; citrate synthase; citrate synthase, peroxisomal	28; 300; 301
+YALI0E02684g	YALI0E02684g	0.201299278707577	OE		2-methylcitrate synthase; citrate synthase; citrate synthase, peroxisomal	28; 300; 301
+YALI0A02244g	YALI0A02244g	0.17390607702874	KD		ammonia transport	1115
+YALI0A19228g	YALI0A19228g	0.17390607702874	KD		ammonia transport	1115
+YALI0B13794g	YALI0B13794g	0.17390607702874	KD		ammonia transport	1115
+YALI0C23617g	YALI0C23617g	0.17390607702874	KD		ammonia transport	1115
+YALI0E27203g	YALI0E27203g	0.17390607702874	KD		ammonia transport	1115
+YALI0F12925g	YALI0F12925g	0.17390607702874	KD		ammonia transport	1115
+YALI0F16896g	YALI0F16896g	0.17390607702874	KD		ammonia transport	1115
+YALI0B15598g	YALI0B15598g	0.137226140235809	OE	essential	phosphogluconate dehydrogenase	889
+YALI0C19085g	YALI0C19085g	0.137226140235809	OE		6-phosphogluconolactonase	91
+YALI0E11671g	YALI0E11671g	0.137226140235809	OE		6-phosphogluconolactonase	91
+YALI0E22649g	YALI0E22649g	0.137226140235809	OE	essential	glucose 6-phosphate dehydrogenase	466
+YALI0C11880g	YALI0C11880g	0.0980125118139185	OE	essential	ribulose 5-phosphate 3-epimerase	984
+YALI0F09185g	YALI0F09185g	0.0936373808295401	OE		pyruvate kinase	962
+YALI0B02728g	YALI0B02728g	0.0871764312407064	OE		diphosphoglyceromutase; phosphoglycerate mutase	356; 893
+YALI0F16819g	YALI0F16819g	0.0871764312407064	OE		enolase	366
+YALI0C11803g	YALI0C11803g	0.0738331414591882	KD		inorganic diphosphatase	568; 569
+YALI0F13541g	YALI0F13541g	0.0738331414591882	KD		inorganic diphosphatase	568; 569
+YALI0C06369g	YALI0C06369g	0.0680692590648633	OE	essential	glyceraldehyde-3-phosphate dehydrogenase	486
+YALI0D12400g	YALI0D12400g	0.0680692590648633	OE	essential	phosphoglycerate kinase	892
+YALI0C24101g	YALI0C24101g	0.0636881195532833	KD		pyruvate carboxylase	958
+YALI0E06479g	YALI0E06479g	0.0490062559069592	OE	essential	transketolase 1; transketolase 2	1049; 1050
+YALI0F15587g	YALI0F15587g	0.0473910185097508	OE		transaldolase	1048
+YALI0D09361g	YALI0D09361g	0.0463159299971116	KD		cis-aconitate(3-) to isocitrate; citrate to cis-aconitate(3-); citrate to cis-aconitate(3-), cytoplasmic	2305; 280; 302; 303
+YALI0E14949g	YALI0E14949g	0.0463159299971116	KD		cis-aconitate(3-) to isocitrate; citrate to cis-aconitate(3-)	2305; 280; 302
+YALI0F09229g	YALI0F09229g	0.0285987788040919	KD	essential	nucleoside diphosphate kinase; nucleoside-diphosphate kinase (ATP:UDP)	795; 796; 797; 798; 799; 800; 801; 802; 803; 811
+YALI0A02310g	YALI0A02310g	0.0243620670132812	KD		UTP-glucose-1-phosphate uridylyltransferase	1084
+YALI0E02090g	YALI0E02090g	0.0243620670132812	KD	essential	phosphoglucomutase; phosphopentomutase	888; 907
+YALI0C01411g	YALI0C01411g	0.0241861953784538	KD		1,3-beta-glucan synthase	5
+YALI0E21021g	YALI0E21021g	0.0241861953784538	KD		1,3-beta-glucan synthase	5
+YALI0C05951g	YALI0C05951g	0.0230603335840183	OE	essential	palmitoyl-CoA desaturase (n-C16:0CoA - n-C16:1CoA), ER membrane; stearoyl-CoA desaturase (n-C18:0CoA - n-C18:1CoA), ER membrane; oleoyl-CoA desaturase (n-C18:1CoA - n-C18:2CoA), ER membrane	2182; 2183; yli0009
+YALI0B16324g	YALI0B16324g	0.022262375046464	KD		chitin synthase	272
+YALI0B21428g	YALI0B21428g	0.022262375046464	KD	essential	glutamine-fructose-6-phosphate transaminase	477
+YALI0C24354g	YALI0C24354g	0.022262375046464	KD		chitin synthase	272
+YALI0D03179g	YALI0D03179g	0.022262375046464	KD		chitin synthase	272
+YALI0D20152g	YALI0D20152g	0.022262375046464	KD	essential	N-acetylglucosamine-6-phosphate synthase	760
+YALI0D25938g	YALI0D25938g	0.022262375046464	KD		chitin synthase	272
+YALI0E03146g	YALI0E03146g	0.022262375046464	KD	essential	UDP-N-acetylglucosamine diphosphorylase	1069
+YALI0E10417g	YALI0E10417g	0.022262375046464	KD		chitin synthase	272
+YALI0E22198g	YALI0E22198g	0.022262375046464	KD		chitin synthase	272
+YALI0E29579g	YALI0E29579g	0.022262375046464	KD	essential	phosphoacetylglucosamine mutase; phosphoglucosamine mutase	882; 890
+YALI0F28655g	YALI0F28655g	0.022262375046464	KD		chitin synthase	272
+YALI0B20438g	YALI0B20438g	0.0191071721758432	KD	essential	phosphoserine phosphatase (L-serine)	917
+YALI0F06468g	YALI0F06468g	0.0191071721758432	KD	essential	phosphoserine transaminase	918
+YALI0F09966g	YALI0F09966g	0.0191071721758432	KD	essential	phosphoglycerate dehydrogenase	891
+YALI0B00704g	YALI0B00704g	0.0185178205398547	KD	essential	adenylate kinase	148
+YALI0C06776g	YALI0C06776g	0.0160788697038547	KD	essential	fumarase; fumarase, cytoplasmic	451; 452
+YALI0F04095g	YALI0F04095g	0.0149579594538662	KD		isocitrate dehydrogenase; isocitrate dehydrogenase (NADP); isocitrate dehydrogenase (NADP+), peroxisomal	2131; 659; 661
+YALI0E18634g	YALI0E18634g	0.0149579594538662	KD		malic enzyme (NAD); malic enzyme (NADP)	718; 719
+YALI0D22484g	YALI0D22484g	0.0109854405893243	KD		glycine hydroxymethyltransferase	502; 503
+YALI0E16346g	YALI0E16346g	0.0109854405893243	KD		glycine hydroxymethyltransferase	502; 503
+YALI0D07986g	YALI0D07986g	0.0108667282115215	OE		diacylglycerol acyltransferase	336u; 336u_1
+YALI0D27016g	YALI0D27016g	0.0108667282115215	OE		diacylglycerol pyrophosphate phosphatase	337u
+YALI0E32769g	YALI0E32769g	0.0108667282115215	OE		diacylglycerol acyltransferase	336u; 336u_1
+YALI0E34672g	YALI0E34672g	0.0101023618659992	KD		succinate-fumarate transport	1265
+YALI0C00209g	YALI0C00209g	0.00996965468757886	OE	essential	glycerol-3-phosphate/dihydroxyacetone phosphate acyltransferase	493; 494; 495; 496
+YALI0E18964g	YALI0E18964g	0.00996965468757886	OE		1-acyl-sn-gylcerol-3-phosphate acyltransferase	8u; 9u
+YALI0F19514g	YALI0F19514g	0.00996965468757886	OE		1-acyl-sn-gylcerol-3-phosphate acyltransferase	8u
+YALI0B13970g	YALI0B13970g	0.00994806811082603	KD	essential	glycerol-3-phosphate dehydrogenase (fad); glycerol-3-phosphate dehydrogenase (FAD)	490; G3PD
+YALI0C14806g	YALI0C14806g	0.00994806811082603	KD	essential	FAD:ubiquinone oxidoreductase	yli0053
+YALI0C23408g	YALI0C23408g	0.0094170800152784	KD	essential	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate); dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)	352; 353
+YALI0D03135g	YALI0D03135g	0.0094170800152784	KD	essential	ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate); acetohydroxy acid isomeroreductase	669; 96
+YALI0E01056g	YALI0E01056g	0.00793752875578303	KD		formate-tetrahydrofolate ligase; methenyltetrahydrifikate cyclohydrolase; methenyltetrahydrofolate cyclohydrolase; methylenetetrahydrofolate dehydrogenase (NADP)	446; 447; 724; 725; 732; 733
+YALI0F30745g	YALI0F30745g	0.00793752875578303	KD		formate-tetrahydrofolate ligase; methenyltetrahydrifikate cyclohydrolase; methenyltetrahydrofolate cyclohydrolase; methylenetetrahydrofolate dehydrogenase (NADP)	446; 447; 724; 725; 732; 733
+YALI0A15125g	YALI0A15125g	0.00763787949262434	KD		phosphate transport	1244
+YALI0A21307g	YALI0A21307g	0.00763787949262434	KD		phosphate transport	1244
+YALI0D08382g	YALI0D08382g	0.00763787949262434	KD		glycero-3-phospho-1-inositol transport; glycero-3-phosphocholine transport; phosphate transport	1169; 1170; 1244
+YALI0E23859g	YALI0E23859g	0.00763787949262434	KD		phosphate transport	1244
+YALI0E31064g	YALI0E31064g	0.00763787949262434	KD		phosphate transport	1244

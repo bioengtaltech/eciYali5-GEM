@@ -1,0 +1,29 @@
+gene_IDs	gene_names	slope	action	essentiality	rxnNames	rxnIDs
+YALI0E10417g	YALI0E10417g	0.0224833520966482	KO		chitin synthase	272_EXP_5
+YALI0E14190g	YALI0E14190g	0.00881114409308736	KD		malate dehydrogenase; malate dehydrogenase, cytoplasmic; malate dehydrogenase, peroxisomal	713_EXP_2; 714; 715_EXP_2
+YALI0A15972g	YALI0A15972g	0.00422601929240738	KO		fructose-bisphosphatase	449
+YALI0E26004g	YALI0E26004g	0.00422601929240738	KO	essential	D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase; fructose-bisphosphate aldolase; sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase	322; 450; 990
+YALI0E06193g	YALI0E06193g	0.00375344865230426	OE	essential	phosphomevalonate kinase	904
+YALI0F05632g	YALI0F05632g	0.00375344865230426	OE	essential	mevalonate pyrophoshate decarboxylase	739
+YALI0E04807g	YALI0E04807g	0.00375344865230426	OE	essential	hydroxymethylglutaryl CoA reductase	558
+YALI0C24101g	YALI0C24101g	0.00169219046654914	KD		pyruvate carboxylase	958
+YALI0D17050g	YALI0D17050g	0.00095997155171415	OE	essential	farnesyltranstransferase	373
+CarRP	CarRP	0.00095997155171415	OE	essential	phytoene synthase; lycopene cyclase (lumped);	PSY; LYCOPC
+CarB	CarB	0.00095997155171415	OE	essential	phytoene dehydrogenase (lumped)	CRTI
+YALI0E05753g	YALI0E05753g	0.000931159033530038	OE	essential	dimethylallyltranstransferase; geranyltranstransferase	355; 462
+YALI0F04015g	YALI0F04015g	0.000931159033530038	OE	essential	isopentenyl-diphosphate D-isomerase	667
+YALI0B03630g	YALI0B03630g	0.000816513287892524	KO		ribonucleotide reductase	974_EXP_3; 975_EXP_3; 976_EXP_3; 977_EXP_3; 978_EXP_3; 979_EXP_3; iYL0606_1_EXP_2; iYL0606_EXP_2
+YALI0F09229g	YALI0F09229g	0.000745014442089257	KD	essential	nucleoside diphosphate kinase; nucleoside-diphosphate kinase (ATP:UDP)	795; 796; 797; 798; 799; 800; 801; 802; 803; 811
+YALI0A02310g	YALI0A02310g	0.000634340007605055	KD		UTP-glucose-1-phosphate uridylyltransferase	1084
+YALI0E02090g	YALI0E02090g	0.000634340007605055	KD	essential	phosphoglucomutase; phosphopentomutase	888; 907_EXP_2
+YALI0B21428g	YALI0B21428g	0.000579668184501011	KD	essential	glutamine-fructose-6-phosphate transaminase	477
+YALI0D20152g	YALI0D20152g	0.000579668184501011	KD	essential	N-acetylglucosamine-6-phosphate synthase	760
+YALI0E03146g	YALI0E03146g	0.000579668184501011	KD	essential	UDP-N-acetylglucosamine diphosphorylase	1069
+YALI0E29579g	YALI0E29579g	0.000579668184501011	KD	essential	phosphoacetylglucosamine mutase; phosphoglucosamine mutase	882; 890
+YALI0B20438g	YALI0B20438g	0.000496959474350422	KD	essential	phosphoserine phosphatase (L-serine)	917
+YALI0F06468g	YALI0F06468g	0.000496959474350422	KD	essential	phosphoserine transaminase	918
+YALI0F09966g	YALI0F09966g	0.000496959474350422	KD	essential	phosphoglycerate dehydrogenase	891
+YALI0F04095g	YALI0F04095g	0.000390193348882584	KD		isocitrate dehydrogenase; isocitrate dehydrogenase (NADP); isocitrate dehydrogenase (NADP+), peroxisomal	2131; 659; 661
+YALI0E18634g	YALI0E18634g	0.000389475659374475	KD		malic enzyme (NAD); malic enzyme (NADP)	718; 719
+YALI0C23408g	YALI0C23408g	0.000245919814814382	KD	essential	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate); dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)	352; 353
+YALI0D03135g	YALI0D03135g	0.000245919814814382	KD	essential	ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate); acetohydroxy acid isomeroreductase	669; 96

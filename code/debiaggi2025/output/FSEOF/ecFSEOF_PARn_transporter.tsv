@@ -1,0 +1,2 @@
+rxn_IDs	rxnNames	slope	grRules	rxn_formula
+226_EXP_2	ATP synthase	0.39792783004369	YALI0B21527g	4 H+_p+1[c] + ADP[m] + phosphate[m] + 0.28098 prot_B5FVB8[c] => H2O[m] + 3 H+_p+1[m] + ATP[m]

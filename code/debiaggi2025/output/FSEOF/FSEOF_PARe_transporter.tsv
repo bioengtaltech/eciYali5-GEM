@@ -1,0 +1,8 @@
+rxn_IDs	rxnNames	slope	grRules	rxn_formula
+1110	ADP/ATP transporter	16.367090291569	YALI0A10659g or YALI0D08228g or YALI0F19712g	ADP[c] + ATP[m] <=> ATP[c] + ADP[m]
+1245	phosphate transport	11.830765568557	YALI0C05753g or YALI0F14223g	H+_p+1[c] + phosphate[c] => H+_p+1[m] + phosphate[m]
+2132	oxoglutarate/malate exchange	7.57950725271288	YALI0D02629g	2-oxoglutarate[m] + (S)-malate[c] => 2-oxoglutarate[c] + (S)-malate[m]
+1126	citrate transport	7.40352244378067	YALI0F26323g	citrate[c] + (S)-malate[m] <=> citrate[m] + (S)-malate[c]
+1115	ammonia transport	5.34163326618732	YALI0E27203g or YALI0F12925g or YALI0C23617g or YALI0A19228g or YALI0F16896g or YALI0A02244g or YALI0B13794g	ammonium[e] <=> ammonium[c]
+1265	succinate-fumarate transport	0.310300324936677	YALI0E34672g	fumarate[m] + succinate[c] => fumarate[c] + succinate[m]
+1244	phosphate transport	0.234602216771315	YALI0E23859g or YALI0E31064g or YALI0D08382g or YALI0A15125g or YALI0A21307g	phosphate[e] + H+_p+1[e] <=> H+_p+1[c] + phosphate[c]
