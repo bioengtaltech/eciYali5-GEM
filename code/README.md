@@ -9,26 +9,7 @@ This folder contains the scripts used to generate, analyse and manipulate the ec
 - utilities/ — reusable helper functions and small utilities
 
 ### debiaggi2025/
-This subfolder contains the core model-generation and analysis scripts used by the Debiaggi 2025 work. Key files and subfolders currently present:
-
-- analysisFSEOF.m
-  - Flux Scanning based on Enforced Objective Function (FSEOF) analysis script.
-- analyzeEcGEMs.m
-  - Scripts to compare / analyse enzyme-constrained GEM variants.
-- eciYali5GEMadapter.m
-  - Adapter / wrapper to convert or adapt model structures to the eciYali5GEM conventions.
-- fluxControlCoefficients.m
-  - Compute flux control coefficients 
-- generateProteomeModels.m
-  - Generate proteome-constrained model variants or proteome-model inputs.
-- generate_eciYali5GEM.m
-  - Script to build the eciYali5GEM model
-- generate_iYali5GEM.m
-  - Script to build the iYali5GEM model
-- R_Analysis/ (directory)
-  - R scripts and analyses related to model results or downstream statistics.
-- output/ (directory)
-  - Output files produced by the scripts above (models, figures, intermediate results).
+This subfolder contains the core model-generation and analysis scripts and outputs used by the De Biaggi 2025 work.
 
 ### utilities/
 This folder contains reusable MATLAB helper functions for model construction, biomass handling, lipid pool updates, FSEOF analysis and export utilities used by the eciYali5-GEM project. Functions assume a model structure compatible with common COBRA/GECKO formats and often rely on a ModelAdapter object (ModelAdapterManager.getDefault()) to locate repository paths and parameters.
