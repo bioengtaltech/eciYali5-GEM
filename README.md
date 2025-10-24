@@ -1,6 +1,6 @@
 ## eciYali5-GEM: Enzyme constrained GEM for Yarrowia lipolytica
 
-[![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/yeast-gem)  
+[![Version](https://badge.fury.io/gh/bioengtaltech%2FeciYali5-GEM.svg)](https://github.com/bioengtaltech/eciYali5-GEM)  
 [![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})
 
 #### Description
