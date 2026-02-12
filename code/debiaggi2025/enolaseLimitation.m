@@ -28,6 +28,7 @@ fluxData = loadFluxData();
 model = loadConventionalGEM();
 allSolutions = struct();  % Initialize allSolutions as a structure
 allUsageReports = struct(); % Initialize allUsageReports as a structure
+allRobustness = struct(); % Initialize allRobustness as a structure
 
 % Run analyzeEcGEMs pipeline, but just for ecCARe and ecCARn
 for i = 3:4
@@ -85,4 +86,15 @@ for i = 3:4
             writetable(usageReport.(fieldName), fullfile(enzymeUsageDir, [modelName, '_', fieldName, '.csv']));
         end
     end
+
+    % Robustness analysis
+    ecModel = setParam(ecModel,'lb','EXC_OUT_caro',0);
+    ecModel = setParam(ecModel,'ub','EXC_OUT_caro',1000);
+    if i == 4
+        % To avoid infeasible solutions in runRobustnessAnalysis() for CARn
+        ecModel = setParam(ecModel,'ub','usage_prot_Q6C1F3',-0.4577);
+        [controlFlux, objFlux] = runRobustnessAnalysis(ecModel, 'usage_prot_Q6C1F3', 20, 'EXC_OUT_caro', true);
+    end
+    allRobustness.(modelName).controlFlux = controlFlux;
+    allRobustness.(modelName).objFlux = objFlux;
 end
