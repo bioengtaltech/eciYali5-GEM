@@ -16,6 +16,12 @@ if ~exist(enzymeUsageDir, 'dir')
     mkdir(enzymeUsageDir);
 end
 
+% Create images subdirectory
+imagesDir = fullfile(baseOutputDir, 'figures');
+if ~exist(imagesDir, 'dir')
+    mkdir(imagesDir);
+end
+
 % Get model adapter and load flux data
 adapterLocation = fullfile(pwd,'eciYali5GEMadapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
@@ -91,10 +97,23 @@ for i = 3:4
     ecModel = setParam(ecModel,'lb','EXC_OUT_caro',0);
     ecModel = setParam(ecModel,'ub','EXC_OUT_caro',1000);
     if i == 4
-        % To avoid infeasible solutions in runRobustnessAnalysis() for CARn
-        ecModel = setParam(ecModel,'ub','usage_prot_Q6C1F3',-0.4577);
-        [controlFlux, objFlux] = runRobustnessAnalysis(ecModel, 'usage_prot_Q6C1F3', 20, 'EXC_OUT_caro', true);
+        % To avoid infeasible solutions in runRobustnessAnalysis() for ecCARn
+        ecModel = setParam(ecModel,'ub','usage_prot_Q6C1F3',-0.4578);
     end
+    [controlFlux, objFlux] = runRobustnessAnalysis(ecModel, 'usage_prot_Q6C1F3', 20, 'EXC_OUT_caro', false);
     allRobustness.(modelName).controlFlux = controlFlux;
     allRobustness.(modelName).objFlux = objFlux;
+
+    % Plot results
+    f = figure('Visible','off');
+    plot(controlFlux, objFlux, '-o', 'LineWidth', 2, 'MarkerSize', 4, 'Color', 'k', 'MarkerFaceColor', 'k');
+    xlabel('Enolase usage (mmol gDCW^{-1} h^{-1})', 'FontSize', 12, 'FontName', 'Arial');
+    ylabel('Carotenoid production (mmol gDCW^{-1} h^{-1})', 'FontSize', 12, 'FontName', 'Arial');
+    title(['Robustness Analysis: ' modelName], 'FontSize', 12, 'FontName', 'Arial', 'Interpreter', 'none');
+    grid on;
+    set(gca, 'FontSize', 12, 'FontName', 'Arial', 'LineWidth', 1, 'Box', 'on');
+
+    % Save figure
+    saveas(f, fullfile(imagesDir, [modelName '_robustness.svg']));
+    close(f);
 end
