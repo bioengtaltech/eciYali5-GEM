@@ -10,6 +10,12 @@ projectRoot = fileparts(scriptDir);
 % Define output folder
 baseOutputDir = fullfile(scriptDir,'output');
 
+% Create enzymeUsage subdirectory
+enzymeUsageDir = fullfile(baseOutputDir, 'enzymeUsage');
+if ~exist(enzymeUsageDir, 'dir')
+    mkdir(enzymeUsageDir);
+end
+
 % Get model adapter and load flux data
 adapterLocation = fullfile(pwd,'eciYali5GEMadapter.m');
 ModelAdapter = ModelAdapterManager.setDefault(adapterLocation);
@@ -70,4 +76,13 @@ for i = 3:4
     allUsageReports.(modelName) = usageReport;
     fprintf('Top absolute enzyme usage for %s:\n', modelName);
     disp(usageReport.topAbsUsage);
+
+    % Save usageReport tables
+    fields = fieldnames(usageReport);
+    for f = 1:length(fields)
+        fieldName = fields{f};
+        if istable(usageReport.(fieldName))
+            writetable(usageReport.(fieldName), fullfile(enzymeUsageDir, [modelName, '_', fieldName, '.csv']));
+        end
+    end
 end
