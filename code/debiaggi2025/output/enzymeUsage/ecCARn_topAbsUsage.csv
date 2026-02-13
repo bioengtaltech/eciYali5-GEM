@@ -1,0 +1,69 @@
+protID,geneID,absUsage,percUsage,kcat,source,rxnID,rxnNames,grRules
+Q6C1F3,YALI0F16819g,0.463357009331193,11.8323627087758,26.0746,DLKcat,366,"enolase",YALI0F16819g
+Q6CAV2,YALI0C24101g,0.213067852952478,5.4409366146263,60,brenda,958,"pyruvate carboxylase",YALI0C24101g
+Q6C6H1,YALI0E09603g,0.200398978342776,5.11742209671634,24,brenda,470,"glutamate dehydrogenase (NAD)",YALI0E09603g
+Q6C793,YALI0E02684g,0.175577574627047,4.48357854673015,NaN,===,===,"involved in multiple rxns, usage combined, individual rxns below",===
+Q6C793,YALI0E02684g,0.175574324268997,4.483495545039,29.9,brenda,300_EXP_2,"citrate synthase",YALI0E02684g
+Q6C793,YALI0E02684g,3.25035804656003e-06,8.30016910627909e-05,29.9,brenda,301_EXP_2,"citrate synthase, peroxisomal",YALI0E02684g
+Q6C9P6,YALI0D09361g,0.169408497293746,4.32604394788709,NaN,===,===,"involved in multiple rxns, usage combined, individual rxns below",===
+Q6C9P6,YALI0D09361g,0.00114606763067698,0.0292661762353198,308.65,DLKcat,280_EXP_1,"cis-aconitate(3-) to isocitrate",YALI0D09361g
+Q6C9P6,YALI0D09361g,0.168260198339908,4.29672079220735,22.7673,DLKcat,302_EXP_1,"citrate to cis-aconitate(3-)",YALI0D09361g
+Q6C9P6,YALI0D09361g,2.23132316130827e-06,5.69794444314115e-05,308.65,DLKcat,302_REV_EXP_1,"citrate to cis-aconitate(3-) (reversible)",YALI0D09361g
+Q6C1K2,YALI0F15587g,0.167228123162989,4.27036554648947,NaN,===,===,"involved in multiple rxns, usage combined, individual rxns below",===
+Q6C1K2,YALI0F15587g,0.167184481485297,4.26925110525026,13,brenda,1048,"transaldolase",YALI0F15587g
+Q6C1K2,YALI0F15587g,4.36416776919577e-05,0.0011144412391993,22.9,brenda,1048_REV,"transaldolase (reversible)",YALI0F15587g
+Q6C8V3,YALI0D16753g,0.156341654561127,3.99236684889588,NaN,===,===,"involved in multiple rxns, usage combined, individual rxns below",===
+Q6C8V3,YALI0D16753g,0.156178476289527,3.98819990104167,83.2,custom,713_EXP_1,"malate dehydrogenase",YALI0D16753g
+Q6C8V3,YALI0D16753g,4.07453284824179e-08,1.04047957748187e-06,121600,brenda,713_REV_EXP_1,"malate dehydrogenase (reversible)",YALI0D16753g
+Q6C8V3,YALI0D16753g,0.000161857002898911,0.00413320771389564,1141,brenda,715_EXP_1,"malate dehydrogenase, peroxisomal",YALI0D16753g
+Q6C8V3,YALI0D16753g,1.28052337202952e-06,3.26996607147214e-05,121600,brenda,715_REV_EXP_1,"malate dehydrogenase, peroxisomal (reversible)",YALI0D16753g
+standard,standard,0.117671206450302,3.00487176639218,NaN,===,===,"involved in multiple rxns, usage combined, individual rxns below",===
+standard,standard,2.85215267571111e-05,0.000728330515783728,14.915,standard,1618,"5'-nucleotidase (dUMP)",
+standard,standard,3.0228268568278e-07,7.71914162417473e-06,14.915,standard,1623,"5-formethyltetrahydrofolate cyclo-ligase",
+standard,standard,0.000151992946498464,0.00388131750664837,14.915,standard,1664_REV,"bicarbonate formation (reversible)",
+standard,standard,7.98142111708513e-05,0.00203814915253245,14.915,standard,1665_REV,"bicarbonate formation (reversible)",
+standard,standard,0.000219172584569123,0.00559682807040063,14.915,standard,1667_REV,"bicarbonate formation (reversible)",
+standard,standard,3.58079946574906e-06,9.14398988531312e-05,14.915,standard,1690,"CMP nucleosidase",
+standard,standard,3.88875334766565e-05,0.000993038611004533,14.915,standard,1734,"deoxyuridine kinase (ATP:deoxyuridine)",
+standard,standard,3.26448315703699e-05,0.000833623922653175,14.915,standard,1821,"guanosine kinase",
+standard,standard,0.00322984139158575,0.0824777743024144,14.915,standard,1887,"L-glutamate 5-semialdehyde dehydratase",
+standard,standard,7.98142111707445e-05,0.00203814915252972,14.915,standard,1887_REV,"L-glutamate 5-semialdehyde dehydratase (reversible)",
+standard,standard,0.000152738967687475,0.0039003680295045,14.915,standard,1974,"nucleoside-diphosphatase (dGDP)",
+standard,standard,2.10755391545025e-05,0.000538188521026206,14.915,standard,1975,"nucleoside-triphosphatase (dGTP)",
+standard,standard,3.25960305795366e-05,0.000832377732323778,14.915,standard,2026,"pyridoxamine kinase",
+standard,standard,3.25960305795366e-05,0.000832377732323778,14.915,standard,2027,"pyridoxamine phosphatase",
+standard,standard,8.88234917226157e-06,0.000226821165959901,14.915,standard,2031,"pyrimidine-nucleoside phosphorylase (uracil)",
+standard,standard,8.78134073057035e-06,0.000224241797363613,14.915,standard,2031_REV,"pyrimidine-nucleoside phosphorylase (uracil) (reversible)",
+standard,standard,1.14801612816948e-06,2.93159333957901e-05,14.915,standard,2064,"thiamin phosphatase",
+standard,standard,1.14801612816948e-06,2.93159333957901e-05,14.915,standard,2065,"thiaminase",
+standard,standard,4.93600569705361e-06,0.000126046673653266,14.915,standard,2074,"thymidine kinase (ATP:thymidine)",
+standard,standard,1.42844831646023e-05,0.00036477097034733,14.915,standard,26,"2-keto-4-methylthiobutyrate transamination",
+standard,standard,7.87028549181875e-05,0.00200976937189815,14.915,standard,3332g,"PA kinase, Golgi membrane",
+standard,standard,5.98606583780598e-05,0.00152861186439733,14.915,standard,3332g_REV,"PA kinase, Golgi membrane (reversible)",
+standard,standard,2.70778790995067e-05,0.000691465285811043,14.915,standard,465,"glucosamine-6-phosphate deaminase",
+standard,standard,3.91602837517978e-05,0.00100000360801418,14.915,standard,475,"glutaminase",
+standard,standard,6.98374103733039e-05,0.00178337988535296,14.915,standard,679,"L-asparaginase",
+standard,standard,0.0030001158749845,0.0766114647804967,14.915,standard,679_REV,"L-asparaginase (reversible)",
+standard,standard,0.00203894128964714,0.0520667485225416,14.915,standard,821,"orotidine-5'-phosphate decarboxylase",
+standard,standard,3.69938305112604e-06,9.44680692816152e-05,14.915,standard,992,"serine O-acetyltransferase",
+standard,standard,0,0,14.915,standard,xPOOL_FA_EM_REV,"Fatty acids pool (reversible)",
+standard,standard,0,0,14.915,standard,xPOOL_FA_LP_REV,"Fatty acids pool (reversible)",
+standard,standard,9.23987472530543e-05,0.00235950998758538,14.915,standard,yli0037,"maleylacetoacetate isomerase",
+standard,standard,9.23987472530543e-05,0.00235950998758538,14.915,standard,yli0037_REV,"maleylacetoacetate isomerase (reversible)",
+standard,standard,0.0538896088073155,1.37613413588491,14.915,standard,yli0039,"erythrose kinase",
+standard,standard,3.28062231163839e-05,0.000837745244381585,14.915,standard,yli0039_REV,"erythrose kinase (reversible)",
+standard,standard,0.0539066864661808,1.37657023386086,14.915,standard,yli0040,"erythrose reductase",
+standard,standard,4.98838819816808e-05,0.00127384322033019,14.915,standard,yli0040_REV,"erythrose reductase (reversible)",
+standard,standard,5.98606583780899e-05,0.0015286118643981,14.915,standard,yli0042,"arabinitol dehydrogenase",
+standard,standard,5.98606583780899e-05,0.0015286118643981,14.915,standard,yli0042_REV,"arabinitol dehydrogenase (reversible)",
+standard,standard,2.75475282694829e-05,0.000703458326194862,14.915,standard,yli0049,"3-methylglutaconyl-CoA dehydratase",
+Q6CAF8,YALI0D03135g,0.109935399113374,2.80732888603766,NaN,===,===,"involved in multiple rxns, usage combined, individual rxns below",===
+Q6CAF8,YALI0D03135g,0.0215468590902654,0.550224226366832,0.98,brenda,669,"ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate)",YALI0D03135g
+Q6CAF8,YALI0D03135g,0.0883885400231077,2.2571046596708,0.98,brenda,96,"acetohydroxy acid isomeroreductase",YALI0D03135g
+Q6C4K5,YALI0E26004g,0.108664070844933,2.77486403303838,NaN,===,===,"involved in multiple rxns, usage combined, individual rxns below",===
+Q6C4K5,YALI0E26004g,0.000154628384015556,0.0039486164833997,8.2041,DLKcat,322,"D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase",YALI0E26004g
+Q6C4K5,YALI0E26004g,0.000127794125529075,0.00326337233463548,9.9268,DLKcat,322_REV,"D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase (reversible)",YALI0E26004g
+Q6C4K5,YALI0E26004g,3.98393251706894e-05,0.00101734372416825,64.5,brenda,450,"fructose-bisphosphate aldolase",YALI0E26004g
+Q6C4K5,YALI0E26004g,0.00316611346804981,0.0808504073029539,14.2949,DLKcat,450_REV,"fructose-bisphosphate aldolase (reversible)",YALI0E26004g
+Q6C4K5,YALI0E26004g,4.86721482898746e-05,0.00124290018448708,8.8297,DLKcat,990,"sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",YALI0E26004g
+Q6C4K5,YALI0E26004g,0.105127023393877,2.68454139300873,13.8,custom,990_REV,"sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase (reversible)",YALI0E26004g
