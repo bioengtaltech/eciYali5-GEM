@@ -1,7 +1,7 @@
-## eciYali5-GEM: Enzyme constrained GEM for Yarrowia lipolytica
+## eciYali5-GEM: Enzyme constrained GEM for *Yarrowia lipolytica*
 
-[![Version](https://badge.fury.io/gh/{{organization or username}}%2F{{repository name}}.svg)](https://badge.fury.io/gh/sysbiochalmers/yeast-gem)  
-[![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})
+[![Version](https://badge.fury.io/gh/bioengtaltech%2FeciYali5-GEM.svg)](https://github.com/bioengtaltech/eciYali5-GEM)  
+[![Zenodo](https://zenodo.org/badge/1079782566.svg)](https://doi.org/10.5281/zenodo.17434108)
 
 #### Description
 
@@ -10,11 +10,7 @@ This repository contains the current enzyme-constrained genome-scale metabolic m
 
 #### Citation
 
-{{ provide the citation once available, for example:
-  > Lu, H., Li, F., Sánchez, B.J. et al (2019). A consensus S. cerevisiae metabolic model Yeast8 and its ecosystem for comprehensively probing cellular metabolism. Nat Commun 10, 3586 [doi:10.1038/s41467-019-11581-3](https://doi.org/10.1038/s41467-019-11581-3)
-
-}}
-
+  > De Biaggi, J.S., Park, YK., Kerkhoven, E.J. et al. Enzyme-constrained genome-scale model of Yarrowia lipolytica predicts growth-phase specific metabolic engineering targets. Appl Microbiol Biotechnol 110, 123 (2026). [doi.org/10.1007/s00253-026-13791-4](https://doi.org/10.1007/s00253-026-13791-4)
 
 #### Keywords
 

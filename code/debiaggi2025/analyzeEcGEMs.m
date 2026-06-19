@@ -38,7 +38,7 @@ for i = 1:length(fluxData.conds)
 
     fileName = [modelName,'_prot.yml'];
 
-    % Load model: already constrained with 10% variance around chemostat fluxes
+    % Load model: already constrained with 10% variance around bioreactor fluxes
 
     ecModel = readYAMLmodel(fullfile(specificEcGEMpath,fileName));
 

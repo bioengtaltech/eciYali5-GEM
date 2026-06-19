@@ -99,77 +99,75 @@ for i = 1:length(modelFCC.names)
         end
     end
 
-    %% Make chart
-    % Sample data
-    FCCs = result.FCCs(1:10); % Top 10 FCCs
-    rxnNames = result.rxnNames(1:10); % Top 10 rxnNames
-    kcats = result.kcat(1:10);
-    
+%% Make chart
 
-    acronyms4plot = cell(size(rxnNames));
+% Sample data
+FCCs = result.FCCs(1:10); % Top 10 FCCs
+rxnNames = result.rxnNames(1:10); % Top 10 rxnNames
+kcats = result.kcat(1:10);
 
-    for j = 1:length(rxnNames)
-        current_name = rxnNames{j};
-        idx = find(strcmp(acronymDictionary.rxnNames,current_name));
-        acronyms4plot{j} = [acronymDictionary.acronyms{idx}];
-    end
+acronyms4plot = cell(size(rxnNames));
+for j = 1:length(rxnNames)
+    current_name = rxnNames{j};
+    idx = find(strcmp(acronymDictionary.rxnNames,current_name));
+    acronyms4plot{j} = acronymDictionary.acronyms{idx};
+end
 
-    % Define a set of pleasant colors
-    pleasantColors = [0.2 0.4 0.8; 0.8 0.2 0.4; 0.4 0.6 0.2; 0.6 0.2 0.6; 0.2 0.6 0.6;
-        0.8 0.4 0.2; 0.4 0.2 0.8; 0.6 0.6 0.2; 0.2 0.8 0.4; 0.4 0.4 0.4];
+% Colors
+pleasantColors = [0.2 0.4 0.8; 0.8 0.2 0.4; 0.4 0.6 0.2; 0.6 0.2 0.6; 0.2 0.6 0.6;
+                  0.8 0.4 0.2; 0.4 0.2 0.8; 0.6 0.6 0.2; 0.2 0.8 0.4; 0.4 0.4 0.4];
 
-    % Create a horizontal bar chart
-    h = barh(FCCs);
+%% ---- Figure setup ----
+figWidth_mm  = 80;                   % target figure width
+figHeight_mm = figWidth_mm * 3/4;    % 4:3 aspect ratio
+innerWidth_cm  = 6;                  % fixed inner axes width
+innerHeight_cm = 4.5;                % fixed inner axes height
 
-    % Customize the chart
-    xlabel('Flux Control Coefficients');
-    ylabel('Enzyme (k_{cat} s^{-1})');
+fig = figure('Units', 'centimeters');
+ax = axes('Parent', fig, 'Units', 'centimeters');
 
-    % Set custom labels for the y-axis ticks
-    yticks(1:10); % Set the number of ticks to match the number of bars
-    yticklabels(acronyms4plot); % Set the rxnNames as labels
+% Fix data area size (inner plotting area)
+ax.Position = [2 1.5 innerWidth_cm innerHeight_cm];
+ax.ActivePositionProperty = 'position'; % ensures this position is respected
 
-    % Set the chart area size to 5 in. tall by 6.75 in. wide
-    set(gcf, 'Position', [100, 100, 2 * 6.75 * 100, 5 * 100]); % [left, bottom, width, height]
+%% ---- Plot ----
+h = barh(ax, FCCs);
+set(ax, 'YDir', 'reverse', 'XScale', 'log');
+yticks(1:length(acronyms4plot));
+yticklabels(acronyms4plot);
 
-    % Invert the y-axis to display the highest value at the top
-    set(gca, 'YDir', 'reverse');
+xlabel('Flux Control Coefficients', 'FontName', 'Arial', 'FontSize', 10);
+ylabel('Enzyme (k_{cat} s^{-1})', 'FontName', 'Arial', 'FontSize', 10);
 
-    % Set x-axis to logarithmic scale
-    set(gca, 'XScale', 'log');
+grid(ax, 'off');
+set(ax, 'FontName', 'Arial', 'FontSize', 10);
+set(ax, 'Box', 'on', 'LineWidth', 0.75, 'Color', 'none');
+ax.XAxis.Color = 'black';
+ax.YAxis.Color = 'black';
+ax.XAxis.LineWidth = 0.75;
+ax.YAxis.LineWidth = 0.75;
+ax.XAxis.TickDirection = 'both';
+ax.YAxis.TickDirection = 'both';
 
-    % Remove grid lines
-    grid off;
+% Bar colors
+for j = 1:numel(h)
+    set(h(j), 'FaceColor', pleasantColors(j,:), 'EdgeColor', 'none');
+end
 
-    % Set font size for labels and ticks
-    set(gca, 'FontSize', 14);
+% Text labels
+for j = 1:length(FCCs)
+    text(FCCs(j) * 1.05, j, sprintf('%.2e', FCCs(j)), ...
+        'VerticalAlignment', 'middle', 'FontSize', 10, 'FontName', 'Arial');
+end
 
-    % Adjust axes line colors and thickness
-    ax = gca;
-    ax.XAxis.Color = 'black';
-    ax.YAxis.Color = 'black';
-    ax.XAxis.LineWidth = 1;
-    ax.YAxis.LineWidth = 1;
+%% ---- Adjust figure to prevent clipping ----
+ti = ax.TightInset; % [left bottom right top]
+outerWidth = innerWidth_cm + ti(1) + ti(3) + 2;
+outerHeight = innerHeight_cm + ti(2) + ti(4) + 2;
+set(fig, 'Position', [2 2 outerWidth outerHeight]);
 
-    % Set tick direction
-    ax.XAxis.TickDirection = 'both';
-    ax.YAxis.TickDirection = 'both';
+%% ---- Save as SVG ----
+figureName = ['FCC_', ecModel.id, '_', modelFCC.target{i}, '.svg'];
+saveas(fig, fullfile(subDirPath, figureName), 'svg');
 
-    % Add a black border around the plot area
-    set(gca, 'Box', 'on', 'LineWidth', 1, 'Color', 'none');
-
-    % Format the data series with pleasant colors
-    for j = 1:numel(h)
-        set(h(j), 'FaceColor', pleasantColors(j, :), 'EdgeColor', 'none');
-    end
-
-    % Add text labels to the bars in scientific notation
-    for j = 1:length(FCCs)
-        text(FCCs(j) * 1.05, j, sprintf('%.2e', FCCs(j)), 'VerticalAlignment', 'middle', 'FontSize', 12);
-    end
-
-    figureName = ['FCC_',ecModel.id,'_',modelFCC.target{i},'.svg'];
-
-    % Save the chart as an SVG file
-    saveas(gcf, fullfile(subDirPath,figureName), 'svg');
 end
