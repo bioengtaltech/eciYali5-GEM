@@ -159,6 +159,19 @@ themselves. A new model release is needed when model content, release artifacts,
 or `version.txt` intentionally change and maintainers decide the updates are
 ready for `main`.
 
+Git tags and GitHub releases are repository-level snapshots. Model-level
+versions and derivation are tracked in `model/versions.tsv`, which records the
+included `iYali5` and `eciYali5-GEM` versions and the base model used to
+generate each ecGEM release. Keep `version.txt` as the repository/latest release
+badge value for now.
+
+When retrieving earlier models, load the desired model from the repository tag:
+
+```matlab
+iModel = getEarlierModelVersion('v1.0.1', 'iYali5');
+ecModel = getEarlierModelVersion('v1.0.1', 'eciYali5-GEM');
+```
+
 ## Acknowledgments
 
 These contribution guidelines were adapted from
