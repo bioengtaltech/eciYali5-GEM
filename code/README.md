@@ -6,16 +6,21 @@ This folder contains the scripts used to generate, analyse and manipulate the ec
 
 - README.md — this file
 - debiaggi2025/ — main analysis and model-generation scripts (MATLAB)
+- modelCuration/ — versioned curation scripts and the curation runner
 - utilities/ — reusable helper functions and small utilities
 
 ### debiaggi2025/
 This subfolder contains the core model-generation and analysis scripts and outputs used by the De Biaggi 2025 work.
+
+### modelCuration/
+This folder contains the Yeast-GEM-style curation scaffold for scripted model updates between releases. Copy `TEMPLATEcuration.m` to a versioned script and run it with `runCurationScript`.
 
 ### utilities/
 This folder contains reusable MATLAB helper functions for model construction, biomass handling, lipid pool updates, FSEOF analysis and export utilities used by the eciYali5-GEM project. Functions assume a model structure compatible with common COBRA/GECKO formats and often rely on a ModelAdapter object (ModelAdapterManager.getDefault()) to locate repository paths and parameters.
 
 ## Typical usage
 - Open MATLAB in the repository root (or add the repository to the MATLAB path).
+- For curated model updates, run a curation script through `code/modelCuration/runCurationScript.m`.
 - Run a generator script to build a model, for example:
   - >> run('code/debiaggi2025/generate_eciYali5GEM.m')
   - or call the main function with parameters as described in its file header.
