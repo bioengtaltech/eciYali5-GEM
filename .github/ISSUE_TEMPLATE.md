@@ -1,25 +1,29 @@
-### Description of the issue:
-*Try to be as clear as possible: Is it something wrong/missing in the model? Is it a simulation issue? PLEASE DELETE THIS LINE.*
+### Description of the issue
 
+Describe the problem or requested improvement. Include whether this is a model
+annotation issue, simulation issue, documentation issue, or missing feature.
 
-#### Expected feature/value/output:
-*How the reaction/metabolite/gene/simulation result should look (cite literature if needed). PLEASE DELETE THIS LINE.*
+#### Expected feature/value/output
 
+Describe the expected reaction, metabolite, gene, simulation result, or
+documentation behavior. Cite literature or data sources when relevant.
 
-#### Current feature/value/output:
-*How the reaction/metabolite/gene/simulation actually looks in the `master` branch. PLEASE DELETE THIS LINE.*
+#### Current feature/value/output
 
+Describe what currently happens in the `main` branch.
 
-#### Reproducing these results:
-*Please attach any code used below (if it's python code replace the keyword "matlab" with "python". PLEASE DELETE THIS LINE.*
+#### Reproducing these results
+
+Attach or paste the code needed to reproduce the issue. Replace `matlab` with
+the correct language if needed.
+
 ```matlab
 
 ```
 
 **I hereby confirm that I have:**
-- [ ] Tested my code with [all requirements](https://github.com/SysBioChalmers/yeast-GEM#required-software---user) for running the model
-- [ ] Done this analysis in the `master` branch of the repository
-- [ ] Checked that a similar issue does not exist already
-- [ ] If needed, asked first in the [Gitter chat room](https://gitter.im/SysBioChalmers/yeast-GEM) about the issue
 
-*Note: replace [ ] with [X] to check the box. PLEASE DELETE THIS LINE*
+- [ ] Tested my code with the required software listed in the repository README.
+- [ ] Done this analysis against the `main` branch of the repository.
+- [ ] Checked that a similar issue does not already exist.
+- [ ] Included enough files, links, commands, or scripts for maintainers to review the issue.

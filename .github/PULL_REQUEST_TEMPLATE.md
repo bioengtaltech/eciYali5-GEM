@@ -1,9 +1,17 @@
-### Main improvements in this PR:
-*Try to be as clear as possible: Is it fixing/adding something in the model? Is it an additional test/function/dataset? PLEASE DELETE THIS LINE.*
+### Main improvements in this PR
+
+Describe whether this PR fixes or adds model content, scripts, tests, data, or
+documentation. Link related issues, for example `Closes #15`.
+
+### Validation
+
+Describe the checks you ran locally. Include MATLAB, R, or Python commands when
+applicable.
 
 **I hereby confirm that I have:**
 
-- [ ] Tested my code on my own computer for running the model
-- [ ] Selected `devel` as a target branch
-
-*Note: replace [ ] with [X] to check the box. PLEASE DELETE THIS LINE*
+- [ ] Based this PR on `develop`.
+- [ ] Tested my changes locally with the required software listed in the README.
+- [ ] Kept model changes scripted instead of editing generated model files by hand.
+- [ ] Avoided adding generated model `.mat` or `.xlsx` files to `develop`.
+- [ ] Used a Conventional Commit message such as `feat(rxn): add methanol pathway`.

@@ -1,0 +1,3 @@
+model	version	derived_from_model	derived_from_version	release_tag	notes
+iYali5	1.0.0	iYali4_corr	unknown	v1.0.1	Current base GEM version inferred from repository release context; update exact provenance during each release.
+eciYali5-GEM	1.0.0	iYali5	1.0.0	v1.0.1	Current ecGEM version follows version.txt; update derived_from_version whenever iYali5 is curated or regenerated.
